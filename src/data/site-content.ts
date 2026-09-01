@@ -32,20 +32,20 @@ export const pillars: ContentItem[] = [
 ];
 
 export const useCases: ContentItem[] = [
-  { id: "onboarding", title: "Employee onboarding", description: "Build a considered welcome-kit requirement for new joiners.", href: "/corporate-gifting/employee-welcome-kits/", status: "planned" },
+  { id: "onboarding", title: "Employee onboarding", description: "Build a considered welcome-kit requirement for new joiners.", href: "/request-a-quote/?type=employee-kit", status: "planned" },
   { id: "events", title: "Events & conferences", description: "Bring apparel, attendee items and print into one event brief.", href: "/request-a-quote/?type=promotional-merchandise", status: "planned" },
-  { id: "teams", title: "Team apparel", description: "Start with who will wear it, where and for what purpose.", href: "/custom-t-shirt-printing/", status: "planned" },
-  { id: "clients", title: "Client gifting", description: "Explore gifting directions suited to the relationship and moment.", href: "/corporate-gifting/", status: "planned" },
-  { id: "campaigns", title: "Promotional campaigns", description: "Translate a campaign need into practical merchandise choices.", href: "/promotional-merchandise/", status: "planned" },
+  { id: "teams", title: "Team apparel", description: "Start with who will wear it, where and for what purpose.", href: "/#custom-apparel", status: "planned" },
+  { id: "clients", title: "Client gifting", description: "Explore gifting directions suited to the relationship and moment.", href: "/#corporate-gifting", status: "planned" },
+  { id: "campaigns", title: "Promotional campaigns", description: "Translate a campaign need into practical merchandise choices.", href: "/#products", status: "planned" },
   { id: "recognition", title: "Awards & recognition", description: "Plan a recognition brief before choosing the final format.", href: "/request-a-quote/?type=corporate-gifting", status: "planned" },
 ];
 
 export const categories: ContentItem[] = [
   { id: "drinkware", title: "Drinkware", description: "Bottles, tumblers and mugs", href: null, status: "planned" },
-  { id: "apparel", title: "Apparel", description: "T-shirts, polos and teamwear", href: "/custom-apparel/", status: "planned" },
+  { id: "apparel", title: "Apparel", description: "T-shirts, polos and teamwear", href: "/#custom-apparel", status: "planned" },
   { id: "bags", title: "Bags", description: "Totes, backpacks and carry options", href: null, status: "planned" },
   { id: "stationery", title: "Stationery", description: "Notebooks and desk essentials", href: null, status: "planned" },
-  { id: "employee-kits", title: "Employee kits", description: "Flexible onboarding combinations", href: "/corporate-gifting/employee-welcome-kits/", status: "planned" },
+  { id: "employee-kits", title: "Employee kits", description: "Flexible onboarding combinations", href: "/request-a-quote/?type=employee-kit", status: "planned" },
   { id: "event-merchandise", title: "Event merchandise", description: "Items for conferences and campaigns", href: null, status: "planned" },
 ];
 
@@ -78,4 +78,3 @@ export const faqs = [
     answer: "These details vary by requirement and have not yet been verified for publication. Share your brief to begin the appropriate quotation process.",
   },
 ];
-

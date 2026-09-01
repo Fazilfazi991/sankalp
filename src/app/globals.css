@@ -110,7 +110,7 @@ p { color: var(--text-secondary); }
 .need-list svg { width: 20px; }
 
 .category-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
-.category { min-height: 300px; padding: 1.35rem; background: var(--surface); border-radius: var(--radius); display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; }
+.category { grid-column: span 4; min-height: 225px; padding: 1.55rem; background: var(--surface); border-radius: var(--radius); display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; }
 .category--1, .category--4 { grid-column: span 5; }
 .category--2, .category--3, .category--5, .category--6 { grid-column: span 3.5; }
 .category--2, .category--5 { grid-column: span 4; }
@@ -158,6 +158,10 @@ p { color: var(--text-secondary); }
 .fabric-swatch { position: absolute; right: 1.2rem; bottom: 1.2rem; background: #e2d1b5; color: #202939; padding: 1rem; border-radius: 5px; transform: rotate(-3deg); font-size: .67rem; letter-spacing: .08em; font-weight: 800; }
 .chip-row { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.6rem 0 2rem; }
 .chip-row span { border: 1px solid #40506a; border-radius: 999px; padding: .45rem .8rem; color: #d8e0ec; font-size: .78rem; font-weight: 700; }
+.feature-photo { min-height: 500px; position: relative; border-radius: var(--radius); overflow: hidden; box-shadow: 0 24px 58px rgba(4,19,54,.28); }
+.feature-photo img { object-fit: cover; object-position: 62% center; }
+.feature-photo--apparel img { object-position: 66% 28%; transform: scale(1.16); }
+.feature-photo span, .kit-photo span { position: absolute; left: 1rem; bottom: 1rem; max-width: calc(100% - 2rem); background: rgba(255,253,248,.94); color: var(--text-primary); padding: .65rem .8rem; border-radius: 9px; font-size: .63rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 800; }
 
 .welcome-section { background: #e9e3d7; }
 .welcome-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(3rem, 8vw, 8rem); align-items: center; }
@@ -171,6 +175,8 @@ p { color: var(--text-secondary); }
 .kit-board > p { position: absolute; margin: 0; bottom: .65rem; left: 1rem; font-size: .65rem; }
 .welcome-copy h2 { max-width: 14ch; }
 .welcome-copy p { font-size: 1.08rem; max-width: 55ch; margin-bottom: 2rem; }
+.kit-photo { min-height: 520px; position: relative; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.kit-photo img { object-fit: cover; object-position: 63% center; }
 
 .process-section { background: var(--surface); }
 .process-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--border); }
@@ -187,6 +193,9 @@ p { color: var(--text-secondary); }
 .method-chip { position: absolute; width: 155px; background: var(--surface); padding: .75rem .9rem; border-radius: var(--radius-sm); font-weight: 800; box-shadow: 0 12px 32px rgba(16,24,40,.08); }
 .method-chip small { display: block; color: var(--text-secondary); font-size: .55rem; text-transform: uppercase; letter-spacing: .06em; margin-top: .25rem; }
 .method-chip:nth-child(2) { top: 2%; left: 5%; }.method-chip:nth-child(3) { top: 7%; right: 4%; }.method-chip:nth-child(4) { top: 42%; left: 0; }.method-chip:nth-child(5) { top: 43%; right: 0; }.method-chip:nth-child(6) { bottom: 3%; left: 10%; }.method-chip:nth-child(7) { bottom: 0; right: 8%; }
+.method-statement { min-height: 420px; display: grid; grid-template-columns: repeat(3, 1fr); align-content: center; gap: .8rem; }
+.method-statement span { padding: 1.1rem; border-top: 1px solid #97a9cd; color: var(--brand-primary-dark); font-size: .72rem; letter-spacing: .1em; font-weight: 800; }
+.method-statement strong { grid-column: 1 / -1; background: var(--brand-primary); color: white; border-radius: var(--radius); padding: 2.4rem; font-size: clamp(1.7rem, 3vw, 2.8rem); letter-spacing: -.035em; }
 
 .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 .why-grid article { padding: 1.5rem 1.25rem; border-top: 1px solid var(--text-primary); }
@@ -275,7 +284,7 @@ p { color: var(--text-secondary); }
   .hero__copy { padding-block: .5rem; }
   .hero__lede { font-size: 1.05rem; }
   .hero__actions { display: grid; }
-  .hero__visual { min-height: 420px; order: -1; }
+  .hero__visual { min-height: 245px; order: -1; }
   .hero__visual img { object-position: 59% center; }
   .hero__visual-label { max-width: calc(100% - 2rem); }
   .section-heading-row, .quote-cta__inner { align-items: flex-start; flex-direction: column; }
@@ -288,13 +297,14 @@ p { color: var(--text-secondary); }
   .need-list span { display: block; }
   .need-list small { display: block; margin-top: .3rem; }
   .category-grid { grid-template-columns: 1fr 1fr; }
-  .category--1, .category--2, .category--3, .category--4, .category--5, .category--6 { grid-column: span 1; min-height: 270px; }
-  .feature-object { min-height: 390px; }
-  .feature__grid--reverse .feature-object { order: 2; }
+  .category, .category--1, .category--2, .category--3, .category--4, .category--5, .category--6 { grid-column: span 1; min-height: 210px; }
+  .feature-object, .feature-photo { min-height: 330px; }
+  .feature__grid--reverse .feature-object, .feature__grid--reverse .feature-photo { order: 2; }
   .gift-box { width: 255px; height: 190px; }
   .gift-lid { width: 270px; height: 82px; transform: translate(-18px,-130px) rotate(-12deg); }
   .gift-card { right: 0; }
   .kit-board { min-height: 440px; }
+  .kit-photo { min-height: 360px; }
   .kit-item--tee { width: 170px; height: 125px; }
   .kit-item--bottle { right: 10%; height: 190px; }
   .kit-item--note { width: 145px; height: 110px; }
@@ -307,6 +317,7 @@ p { color: var(--text-secondary); }
   .method-cloud { min-height: auto; display: grid; grid-template-columns: 1fr 1fr; gap: .7rem; }
   .method-center { width: 150px; height: 150px; grid-column: 1 / -1; margin: 0 auto 1rem; }
   .method-chip { position: static; width: auto; }
+  .method-statement { min-height: 300px; }
   .why-grid { grid-template-columns: 1fr; }
   .why-grid svg { margin-bottom: 2.5rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; }

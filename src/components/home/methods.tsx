@@ -1,7 +1,5 @@
-import { brandingMethods } from "@/data/site-content";
 import { SectionHeading } from "@/components/ui/section-heading";
 
 export function BrandingMethods() {
-  return <section className="section methods-section" id="methods"><div className="container methods-layout"><SectionHeading title="The method should follow the product and purpose" description="Visitors should never need to diagnose the printing technique themselves. These educational slots remain unpublished as capabilities until Sankalp confirms each method." /><div className="method-cloud" aria-label="Planned customisation-method content"><span className="method-center">Share the<br /><strong>requirement</strong></span>{brandingMethods.map((method) => <span className="method-chip" key={method.id}>{method.title}<small>Confirmation required</small></span>)}</div></div></section>;
+  return <section className="section methods-section" id="methods"><div className="container methods-layout"><SectionHeading title="The method should follow the product and purpose" description="You should not need to diagnose the technical process before enquiring. Start with the product, finish and intended use." /><div className="method-statement"><span>PRODUCT</span><span>PURPOSE</span><span>FINISH</span><strong>Share the requirement</strong></div></div></section>;
 }
-

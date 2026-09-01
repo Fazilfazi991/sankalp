@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-01T00:00:00+04:00",
+  "title": "Design System: Sankalp Branding Solutions",
+  "extensions": {
+    "colorMeta": {
+      "cobalt": { "role": "primary", "displayName": "Production Cobalt", "canonical": "#1857d8", "tonalRamp": ["oklch(22% 0.12 260)", "oklch(32% 0.16 260)", "oklch(42% 0.19 260)", "#1857d8", "oklch(62% 0.16 260)", "oklch(73% 0.12 260)", "oklch(85% 0.07 260)", "oklch(95% 0.025 260)"] },
+      "cobalt-deep": { "role": "primary", "displayName": "Deep Cobalt", "canonical": "#103c9c", "tonalRamp": ["oklch(18% 0.09 260)", "oklch(27% 0.12 260)", "#103c9c", "oklch(46% 0.16 260)", "oklch(58% 0.14 260)", "oklch(70% 0.1 260)", "oklch(83% 0.06 260)", "oklch(95% 0.02 260)"] },
+      "warm-ivory": { "role": "neutral", "displayName": "Warm Ivory", "canonical": "#f7f4ee", "tonalRamp": ["oklch(18% 0.01 80)", "oklch(30% 0.012 80)", "oklch(43% 0.014 80)", "oklch(56% 0.016 80)", "oklch(69% 0.018 80)", "oklch(80% 0.019 80)", "oklch(90% 0.02 80)", "#f7f4ee"] },
+      "paper": { "role": "neutral", "displayName": "Sample Paper", "canonical": "#fffdf8", "tonalRamp": ["oklch(18% 0.008 85)", "oklch(30% 0.009 85)", "oklch(43% 0.01 85)", "oklch(56% 0.011 85)", "oklch(69% 0.012 85)", "oklch(81% 0.013 85)", "oklch(91% 0.014 85)", "#fffdf8"] },
+      "warm-stone": { "role": "neutral", "displayName": "Warm Stone", "canonical": "#eae5dc", "tonalRamp": ["oklch(17% 0.012 75)", "oklch(29% 0.014 75)", "oklch(41% 0.016 75)", "oklch(54% 0.018 75)", "oklch(66% 0.019 75)", "oklch(77% 0.02 75)", "#eae5dc", "oklch(95% 0.012 75)"] },
+      "ink": { "role": "neutral", "displayName": "Presentation Ink", "canonical": "#101828", "tonalRamp": ["#101828", "oklch(25% 0.025 255)", "oklch(36% 0.024 255)", "oklch(48% 0.022 255)", "oklch(60% 0.019 255)", "oklch(72% 0.016 255)", "oklch(84% 0.012 255)", "oklch(95% 0.006 255)"] },
+      "slate": { "role": "neutral", "displayName": "Working Slate", "canonical": "#536070", "tonalRamp": ["oklch(18% 0.02 250)", "oklch(29% 0.025 250)", "#536070", "oklch(50% 0.025 250)", "oklch(61% 0.022 250)", "oklch(73% 0.018 250)", "oklch(85% 0.012 250)", "oklch(95% 0.005 250)"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "#d7d1c7", "tonalRamp": ["oklch(18% 0.01 75)", "oklch(29% 0.012 75)", "oklch(41% 0.014 75)", "oklch(53% 0.015 75)", "oklch(65% 0.016 75)", "oklch(76% 0.017 75)", "#d7d1c7", "oklch(95% 0.008 75)"] },
+      "signal-lime": { "role": "tertiary", "displayName": "Signal Lime", "canonical": "#e5ff57", "tonalRamp": ["oklch(18% 0.06 118)", "oklch(30% 0.1 118)", "oklch(42% 0.14 118)", "oklch(54% 0.17 118)", "oklch(66% 0.19 118)", "oklch(78% 0.2 118)", "#e5ff57", "oklch(95% 0.09 118)"] },
+      "focus-amber": { "role": "tertiary", "displayName": "Focus Amber", "canonical": "#ffb800", "tonalRamp": ["oklch(18% 0.06 75)", "oklch(30% 0.1 75)", "oklch(42% 0.14 75)", "oklch(54% 0.17 75)", "oklch(66% 0.19 75)", "#ffb800", "oklch(87% 0.15 75)", "oklch(95% 0.07 75)"] },
+      "success": { "role": "tertiary", "displayName": "Success Green", "canonical": "#157347", "tonalRamp": ["oklch(18% 0.05 155)", "oklch(29% 0.08 155)", "#157347", "oklch(50% 0.11 155)", "oklch(62% 0.1 155)", "oklch(74% 0.08 155)", "oklch(86% 0.05 155)", "oklch(95% 0.02 155)"] },
+      "warning": { "role": "tertiary", "displayName": "Warning Ochre", "canonical": "#a65f00", "tonalRamp": ["oklch(18% 0.05 65)", "oklch(29% 0.09 65)", "#a65f00", "oklch(50% 0.13 65)", "oklch(62% 0.12 65)", "oklch(74% 0.09 65)", "oklch(86% 0.055 65)", "oklch(95% 0.02 65)"] },
+      "error": { "role": "tertiary", "displayName": "Error Red", "canonical": "#b42318", "tonalRamp": ["oklch(18% 0.07 28)", "oklch(29% 0.12 28)", "#b42318", "oklch(50% 0.17 28)", "oklch(62% 0.15 28)", "oklch(74% 0.11 28)", "oklch(86% 0.06 28)", "oklch(95% 0.025 28)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The single descriptive page headline." },
+      "headline": { "displayName": "Headline", "purpose": "Section-level promises and requirement framing." },
+      "title": { "displayName": "Title", "purpose": "Compact cards and editorial modules." },
+      "body": { "displayName": "Body", "purpose": "Explanatory and procurement-supporting copy." },
+      "label": { "displayName": "Label", "purpose": "Provenance, process numbers, and compact utility metadata." }
+    },
+    "shadows": [
+      { "name": "ambient-surface", "value": "0 18px 45px rgba(16, 24, 40, 0.1)", "purpose": "Large product panels, sample boards, and forms." },
+      { "name": "primary-action", "value": "0 10px 28px rgba(24, 87, 216, 0.24)", "purpose": "Cobalt primary buttons." },
+      { "name": "floating-label", "value": "0 8px 24px rgba(16, 24, 40, 0.12)", "purpose": "Annotations over photography." }
+    ],
+    "motion": [
+      { "name": "state-standard", "value": "200ms ease", "purpose": "Color, transform, shadow, and disclosure state changes." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Effectively removes animation when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "navigation-and-grid", "value": "1100px" },
+      { "name": "single-column", "value": "760px" },
+      { "name": "compact-mobile", "value": "430px" },
+      { "name": "narrow-mobile", "value": "340px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main quote or continuation action.",
+      "html": "<button class=\"ds-btn-primary\">Request a Quote <span aria-hidden=\"true\">↗</span></button>",
+      "css": ".ds-btn-primary { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: .6rem; border: 1px solid transparent; border-radius: var(--radius-sm, 12px); padding: .75rem 1.15rem; background: var(--brand-primary, #1857d8); color: #fff; font: 750 1rem/1.1 var(--font-manrope, sans-serif); cursor: pointer; box-shadow: 0 10px 28px rgba(24,87,216,.24); transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease; } .ds-btn-primary:hover { background: var(--brand-primary-dark, #103c9c); transform: translateY(-2px); } .ds-btn-primary:focus-visible { outline: 3px solid var(--focus, #ffb800); outline-offset: 4px; } .ds-btn-primary:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "A secondary exploration action that does not compete with the quote path.",
+      "html": "<button class=\"ds-btn-quiet\">Explore Products <span aria-hidden=\"true\">↘</span></button>",
+      "css": ".ds-btn-quiet { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: .6rem; border: 1px solid var(--border, #d7d1c7); border-radius: var(--radius-sm, 12px); padding: .75rem 1.15rem; background: transparent; color: var(--text-primary, #101828); font: 750 1rem/1.1 var(--font-manrope, sans-serif); cursor: pointer; transition: background-color .2s ease, transform .2s ease; } .ds-btn-quiet:hover { background: var(--surface, #fffdf8); transform: translateY(-2px); } .ds-btn-quiet:focus-visible { outline: 3px solid var(--focus, #ffb800); outline-offset: 4px; } .ds-btn-quiet:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Editorial Card",
+      "kind": "card",
+      "refersTo": "card-editorial",
+      "description": "A compact, flat catalogue direction card.",
+      "html": "<article class=\"ds-card-editorial\"><h3>Employee welcome kits</h3><p>Build a useful, coordinated set around the role, occasion, and budget.</p><a href=\"#\">Enquire about this category ↗</a></article>",
+      "css": ".ds-card-editorial { min-height: 225px; padding: 1.55rem; display: flex; flex-direction: column; justify-content: space-between; border-radius: var(--radius, 16px); background: var(--surface, #fffdf8); color: var(--text-primary, #101828); font-family: var(--font-manrope, sans-serif); } .ds-card-editorial h3 { margin: 0 0 .45rem; font-size: 1.35rem; line-height: 1.08; letter-spacing: -.035em; } .ds-card-editorial p { margin: 0 0 .8rem; color: var(--text-secondary, #536070); line-height: 1.65; } .ds-card-editorial a { color: var(--brand-primary, #1857d8); font-weight: 740; text-decoration: none; text-underline-offset: 5px; } .ds-card-editorial a:hover { text-decoration: underline; } .ds-card-editorial a:focus-visible { outline: 3px solid var(--focus, #ffb800); outline-offset: 4px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A direct, labeled field for quote requirements.",
+      "html": "<label class=\"ds-field\"><span>Company <b aria-hidden=\"true\">*</b></span><input type=\"text\" placeholder=\"Company name\"></label>",
+      "css": ".ds-field { display: grid; gap: .45rem; color: var(--text-primary, #101828); font: 720 .84rem/1.4 var(--font-manrope, sans-serif); } .ds-field b { color: var(--error, #b42318); } .ds-field input { width: 100%; min-height: 50px; border: 1px solid var(--border, #d7d1c7); border-radius: 10px; padding: .75rem .85rem; background: #fff; color: var(--text-primary, #101828); font: 400 1rem/1.65 var(--font-manrope, sans-serif); } .ds-field input:hover { border-color: var(--text-secondary, #536070); } .ds-field input:focus { border-color: var(--brand-primary, #1857d8); outline: 3px solid rgba(24,87,216,.16); }"
+    },
+    {
+      "name": "Method Chip",
+      "kind": "chip",
+      "description": "A non-interactive attribute label used on dark feature surfaces.",
+      "html": "<span class=\"ds-method-chip\">Embroidery</span>",
+      "css": ".ds-method-chip { display: inline-flex; align-items: center; border: 1px solid #40506a; border-radius: 999px; padding: .45rem .8rem; background: transparent; color: #d8e0ec; font: 700 .78rem/1.2 var(--font-manrope, sans-serif); }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Compact desktop navigation with cobalt hover and visible keyboard focus.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#\">Products</a><a href=\"#\">Corporate Gifting</a><a href=\"#\">Custom Apparel</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 1.5rem; font-family: var(--font-manrope, sans-serif); } .ds-nav a { color: #344054; font-size: .86rem; font-weight: 700; text-decoration: none; transition: color .2s ease; } .ds-nav a:hover { color: var(--brand-primary, #1857d8); } .ds-nav a:focus-visible { outline: 3px solid var(--focus, #ffb800); outline-offset: 4px; }"
+    },
+    {
+      "name": "FAQ Disclosure",
+      "kind": "custom",
+      "description": "A ruled native disclosure for factual pre-enquiry answers.",
+      "html": "<details class=\"ds-faq\" open><summary>What information should I share?<span aria-hidden=\"true\"></span></summary><p>Start with the requirement, approximate quantity, and required date.</p></details>",
+      "css": ".ds-faq { border-top: 1px solid var(--border, #d7d1c7); border-bottom: 1px solid var(--border, #d7d1c7); padding: 1.2rem 0; color: var(--text-primary, #101828); font-family: var(--font-manrope, sans-serif); } .ds-faq summary { list-style: none; cursor: pointer; font-weight: 750; display: flex; justify-content: space-between; gap: 1rem; } .ds-faq summary::-webkit-details-marker { display: none; } .ds-faq summary span { width: 18px; height: 18px; position: relative; flex: none; } .ds-faq summary span::before, .ds-faq summary span::after { content: ''; position: absolute; background: var(--brand-primary, #1857d8); inset: 8px 1px auto; height: 2px; } .ds-faq summary span::after { transform: rotate(90deg); transition: transform .2s ease; } .ds-faq[open] summary span::after { transform: rotate(0); } .ds-faq summary:focus-visible { outline: 3px solid var(--focus, #ffb800); outline-offset: 4px; } .ds-faq p { max-width: 65ch; margin: 1rem 2rem 0 0; color: var(--text-secondary, #536070); line-height: 1.65; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Working Sample Room",
+    "overview": "Sankalp's implemented visual system presents branded merchandise as a practical, tangible business decision. Warm paper-like neutrals create a bright sample-room foundation; saturated cobalt provides a single confident brand voice; near-black ink surfaces create editorial contrast. Product photography and material-like product compositions carry the emotional weight, while copy and navigation remain direct, procurement-friendly, and requirement-led.\n\nThis is intentionally a temporary identity. The current logo mark, cobalt, Manrope typography, and generated development imagery are working decisions, not permanent brand assets. Preserve their roles and restraint while this system is in use, but keep them centralized and replaceable when approved Sankalp identity assets and real project photography arrive.",
+    "keyCharacteristics": [
+      "Warm, bright neutral canvas with one controlled cobalt accent.",
+      "Ink sections create decisive contrast without turning the page into a dark theme.",
+      "Tactile product imagery and material compositions lead; decoration stays subordinate.",
+      "Compact editorial cards and ruled lists make broad offerings easy to scan.",
+      "Requirement-first language supports a quote-led B2B buying journey.",
+      "Motion is restrained, state-led, and removed for reduced-motion users."
+    ],
+    "rules": [
+      { "name": "The One-Ink Rule", "body": "Cobalt is the sole general-purpose accent; do not introduce another brand color while the temporary system is active.", "section": "colors" },
+      { "name": "The Signal-Is-State Rule", "body": "Lime, amber, green, orange, and red are reserved for highlight, focus, success, warning, and error roles. They do not decorate ordinary content.", "section": "colors" },
+      { "name": "The Temporary Identity Rule", "body": "Keep color assignments tokenized so approved brand colors can replace the current cobalt-and-ivory system without rebuilding component structure.", "section": "colors" },
+      { "name": "The Descriptive Headline Rule", "body": "Headlines name the buyer's need or offering plainly before using campaign language.", "section": "typography" },
+      { "name": "The One-Family Rule", "body": "Use Manrope across display, body, labels, controls, and navigation until approved typography arrives; hierarchy comes from scale, weight, spacing, and placement.", "section": "typography" },
+      { "name": "The Two-to-One Rule", "body": "New page templates should begin with a purposeful two-column relationship and collapse to one clear reading order on mobile; never preserve desktop adjacency at the cost of legibility.", "section": "layout" },
+      { "name": "The Container Rule", "body": "Full-bleed color or imagery may define a section, but readable content remains aligned to the shared capped container and fluid gutter.", "section": "layout" },
+      { "name": "The Tactile-Only Rule", "body": "Use elevation to suggest a physical sample, photograph, control, or floating annotation—not to make every content block hover.", "section": "elevation" },
+      { "name": "The Soft-Not-Puffy Rule", "body": "Default surfaces use a 16px radius and controls use 10–12px; avoid oversized, inflated rounding except for true chips or circular product diagrams.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do begin page architecture from the user's requirement, quantity, date, or business context.",
+      "Do use cobalt selectively for actions and navigation cues against the warm neutral foundation.",
+      "Do keep cards compact, editorial, and structurally useful.",
+      "Do preserve visible keyboard focus, semantic structure, mobile touch targets, and reduced-motion behavior.",
+      "Do use real products and real Sankalp work as soon as verified assets are available.",
+      "Do scale new pages through the same container, type hierarchy, two-to-one responsive pattern, and reusable content structures."
+    ],
+    "donts": [
+      "Don't present the site as checkout-first ecommerce, SaaS, a digital agency, a fashion store, or a generic corporate template.",
+      "Don't add unverified products, prices, lead times, client marks, claims, contact details, or operational promises.",
+      "Don't introduce extra decorative accents, gradients, glass effects, or neon treatments that weaken the one-cobalt system.",
+      "Don't turn every section into rounded floating cards; use rules, tonal bands, and open space to preserve editorial rhythm.",
+      "Don't promote homepage-specific compositions—gift boxes, method clouds, or staggered category shapes—into mandatory patterns for every page.",
+      "Don't treat the current logo, colors, typography, or generated imagery as permanent brand equity."
+    ]
+  }
+}

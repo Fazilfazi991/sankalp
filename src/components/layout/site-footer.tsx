@@ -17,8 +17,7 @@ export function SiteFooter() {
         <div><h2>Company</h2><Link href="/#why-sankalp">About</Link><Link href="/#how-it-works">How it works</Link><Link href="/#faqs">FAQs</Link><Link href="/request-a-quote/">Request a quote</Link></div>
         {hasContact ? <div><h2>Contact</h2>{business.phone ? <a href={`tel:${business.phone}`}>{business.phone}</a> : null}{business.email ? <a href={`mailto:${business.email}`}>{business.email}</a> : null}{business.address ? <p>{business.address}</p> : null}</div> : null}
       </div>
-      <div className="container footer-bottom"><span>© {new Date().getFullYear()} {business.brandName}</span><span>Business details awaiting client verification</span></div>
+      <div className="container footer-bottom"><span>© {new Date().getFullYear()} {business.brandName}</span><span>Temporary visual identity · approved brand assets required</span></div>
     </footer>
   );
 }
-

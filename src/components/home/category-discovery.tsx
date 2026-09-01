@@ -7,12 +7,11 @@ export function CategoryDiscovery() {
   return (
     <section className="section" id="products">
       <div className="container">
-        <div className="section-heading-row"><SectionHeading title="Explore product directions" description="A curated catalogue structure, ready for verified product records—not fabricated inventory." /><Link href="/request-a-quote/" className="text-link">Share a product brief <ArrowUpRight size={16} aria-hidden="true" /></Link></div>
+        <div className="section-heading-row"><SectionHeading title="Explore product directions" description="Start with a product family, or share the business need and let the requirement guide the choice." /><Link href="/request-a-quote/" className="text-link">Share a product brief <ArrowUpRight size={16} aria-hidden="true" /></Link></div>
         <div className="category-grid">
-          {categories.map((category, index) => <article className={`category category--${index + 1}`} key={category.id}><div className="category__shape" aria-hidden="true"><span /></div><div><h3>{category.title}</h3><p>{category.description}</p><span className="planned-label">Catalogue data required</span></div></article>)}
+          {categories.map((category) => <article className="category" key={category.id}><div><h3>{category.title}</h3><p>{category.description}</p></div><Link href="/request-a-quote/" className="text-link">Enquire about this category <ArrowUpRight size={15} aria-hidden="true" /></Link></article>)}
         </div>
       </div>
     </section>
   );
 }
-

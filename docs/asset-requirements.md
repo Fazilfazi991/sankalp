@@ -66,7 +66,8 @@ The homepage currently uses one clearly labelled, AI-generated, unbranded develo
 ## Current development asset provenance
 
 - `public/hero-merchandise-development.png`
+- `public/apparel-development.png`
+- `public/welcome-kit-development.png`
 - Created with OpenAI built-in image generation on 1 September 2026.
 - Development-only, generic and unbranded; replace before publication.
 - Prompt intent: bright editorial still life of a gift box, blank polo, bottle, mug, notebook, tote, business cards and lanyard on an ivory studio surface with one cobalt accent; no logos, text, prices, people or specifications.
-
