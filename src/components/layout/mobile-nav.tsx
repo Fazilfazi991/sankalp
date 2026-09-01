@@ -12,6 +12,7 @@ const links = [
   ["Promotional merchandise", "/#pillars"],
   ["Printing & branding", "/#pillars"],
   ["About", "/#why-sankalp"],
+  ["Contact", "/request-a-quote/"],
 ] as const;
 
 export function MobileNav() {

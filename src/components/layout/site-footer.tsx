@@ -10,7 +10,7 @@ export function SiteFooter() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <BrandMark />
-          <p>Branded merchandise, gifting, apparel and print architecture for businesses in Bengaluru.</p>
+          <p>Corporate gifting, custom apparel, branded merchandise and professional printing for Bengaluru businesses.</p>
           <Link className="text-link text-link--light" href="/request-a-quote/">Start a requirement <ArrowUpRight size={16} aria-hidden="true" /></Link>
         </div>
         <div><h2>Explore</h2><Link href="/#products">Products</Link><Link href="/#corporate-gifting">Corporate gifting</Link><Link href="/#custom-apparel">Custom apparel</Link><Link href="/#pillars">Printing & branding</Link></div>

@@ -12,6 +12,7 @@ Gate 2 note: unavailable contact details are hidden, indexing is disabled until 
 - Primary public email and exact destination/integration for quote submissions.
 - Full public address: building/street, locality, city, state and PIN.
 - Approved logo files, preferably SVG plus light/dark variants, and basic brand colours/fonts if defined.
+- LOGO APPROVAL: confirm or replace the temporary geometric S development mark before publication.
 - Confirmed list of launch services/products mapped to the four proposed pillars.
 - Confirmation that the business serves Bengaluru and the actual delivery/service geography.
 - Privacy/contact-form consent requirements and person responsible for responding to leads.

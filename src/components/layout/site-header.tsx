@@ -9,11 +9,13 @@ export function SiteHeader() {
       <div className="container site-header__inner">
         <BrandMark />
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <Link href="/#products">Products</Link>
           <Link href="/#corporate-gifting">Corporate Gifting</Link>
           <Link href="/#custom-apparel">Custom Apparel</Link>
-          <Link href="/#pillars">Printing & Branding</Link>
+          <Link href="/#pillars">Promotional Merchandise</Link>
+          <Link href="/#methods">Printing &amp; Branding</Link>
+          <Link href="/#products">Products</Link>
           <Link href="/#why-sankalp">About</Link>
+          <Link href="/request-a-quote/">Contact</Link>
         </nav>
         <Link className="button button--primary header-quote" href="/request-a-quote/">Request a Quote <ArrowUpRight size={17} aria-hidden="true" /></Link>
         <MobileNav />
@@ -21,4 +23,3 @@ export function SiteHeader() {
     </header>
   );
 }
-
