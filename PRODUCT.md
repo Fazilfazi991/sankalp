@@ -38,11 +38,11 @@ Visitors may need event T-shirts, employee onboarding gifts, conference merchand
 
 ## Brand Commitments
 
-Public brand name: Sankalp Branding Solutions. Approved permanent logo, colours, typography and guidelines are absent. The Gate 2 temporary system must use a restrained neutral foundation with one controlled accent and must be easily retuned when actual assets arrive. It should feel premium, bright, tactile, modern, product-led, B2B, energetic, clean and procurement-friendly—never like SaaS, a digital agency, cheap print shop, fashion store, generic template, neon startup, luxury label or corporate slide deck.
+Public brand name: Sankalp Branding Solutions. The supplied black, white and gold logo kit is the approved production identity. The surrounding interface keeps a restrained neutral foundation with controlled gold accents and must remain easy to retune as further brand guidance arrives. It should feel premium, bright, tactile, modern, product-led, B2B, energetic, clean and procurement-friendly—never like SaaS, a digital agency, cheap print shop, fashion store, generic template, neon startup, luxury label or corporate slide deck.
 
 ## Evidence on Hand
 
-The repository contains Gate 0/1 strategy, competitor research, keyword map, sitemap and client-data register. Verified public business data is centralized in `src/config/business.ts`. There are no verified products, portfolio images, client logos, testimonials, ratings, statistics, prices, production claims or approved brand assets. Future work must not fabricate them.
+The repository contains Gate 0/1 strategy, competitor research, keyword map, sitemap, client-data register and the approved production logo kit. Verified public business data is centralized in `src/config/business.ts`. There are no verified products, portfolio images, client logos, testimonials, ratings, statistics, prices or production claims. Future work must not fabricate them.
 
 ## Product Principles
 

@@ -4,7 +4,7 @@
 
 The homepage uses a premium B2B product-catalogue direction: dominant white and soft ivory surfaces, near-black editorial contrast, and restrained gold accents. Photography carries the emotional weight. Geometry is sharp, shadows are scarce, and section compositions deliberately vary.
 
-The current wordmark and all product images are temporary development assets pending client approval and real Sankalp photography.
+The approved Sankalp wordmark integrates a bow and gift treatment into the leading S. Product imagery remains temporary development photography pending real Sankalp photography.
 
 ## Tokens
 
@@ -28,6 +28,7 @@ Instrument Sans is the sole interface family. Headlines are compact, confident, 
 - Buttons use 6px corners, a minimum 50px height, and black, white-outline, or selective gold treatments.
 - Cards use 5–6px corners and rely on image, tonal contrast, and fine borders instead of shadows.
 - Generated imagery is recorded as temporary in internal documentation and data only. Public-facing provenance labels are not rendered.
+- Use the primary black-and-gold SVG on light surfaces, the reversed white-and-gold SVG on dark surfaces, and the compact bow/S mark for icons and favicons. Preserve the supplied proportions.
 - The header contains no utility strip until contact and operating information are verified.
 
 ## Responsive rules

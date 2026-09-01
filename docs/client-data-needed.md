@@ -18,8 +18,6 @@ Gate 2.2 note: canonical metadata, sitemap, robots architecture and verified con
 ## BLOCKS LAUNCH
 
 - Approved legal/business name and public brand styling.
-- Approved logo files, preferably SVG plus light/dark variants, and basic brand colours/fonts if defined.
-- LOGO APPROVAL: confirm or replace the temporary geometric S development mark before publication.
 - Confirmed list of launch services/products mapped to the four proposed pillars.
 - Confirmation that the business serves Bengaluru and the actual delivery/service geography.
 - Privacy/contact-form consent requirements and person responsible for responding to leads.

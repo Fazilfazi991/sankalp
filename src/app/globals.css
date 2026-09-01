@@ -29,9 +29,20 @@
 .process{padding-block:4.75rem}.process .section-head{margin-bottom:1.9rem}.process li{min-height:175px;padding:1.15rem 1.6rem 1rem 0}.process li>span{font-size:2.15rem;margin-bottom:2.1rem}.process li h3{font-size:1.15rem}.process li p{font-size:.92rem;line-height:1.5}
 .methods{padding-block:5.5rem}.methods .feature-image{height:500px}
 .brief{padding-block:5rem}.brief-grid{grid-template-columns:.85fr 1.15fr;gap:clamp(3rem,7vw,7rem)}.brief-grid>div article{grid-template-columns:72px 1fr;padding:1rem 0}.brief article>span{font-size:1.15rem}.brief h3{font-size:1.1rem}.brief p{font-size:.93rem}
-.faq{padding-block:5.25rem}.faq-grid{grid-template-columns:.8fr 1.2fr;gap:clamp(3rem,7vw,7rem)}.faq details{padding:1.15rem 0}.faq summary{font-size:1.05rem}.faq details p{font-size:.96rem;line-height:1.6}
+.faq{padding-block:4.5rem}.faq-heading{display:flex;align-items:end;justify-content:space-between;gap:3rem;padding-bottom:1.75rem;border-bottom:1px solid var(--black)}.faq-heading h2{margin:.35rem 0 0}.faq-heading>p{max-width:38ch;margin:0}.faq-columns{display:grid;grid-template-columns:1fr 1fr;column-gap:clamp(2rem,5vw,5rem)}.faq-column details{border-bottom:1px solid #cfc8bd;padding:1.2rem 0}.faq summary{font-size:1.05rem}.faq details p{font-size:.96rem;line-height:1.6}
 .final-cta{padding-block:5.5rem}.final-cta .button{min-height:52px}
 .site-footer{padding-top:4.5rem}.site-footer .brand-symbol{width:46px;height:50px}.footer-grid{gap:clamp(2rem,4vw,4rem)}.footer-grid a,.footer-grid p{font-size:.9rem;line-height:1.55}.footer-grid h2{font-size:.76rem}
 @media(max-width:1120px){.site-header{height:74px}.need-grid a{min-height:170px}}
 @media(max-width:760px){:root{--h1-max:2.85rem;--h2-max:2.5rem}.site-header{height:72px}.hero-copy h1{font-size:clamp(2.5rem,11vw,var(--h1-max));max-width:12ch}.hero-copy{padding:2.75rem 0 2rem}.hero-image{height:320px}.pillar{height:240px}.needs{padding-block:3.75rem}.need-grid a{min-height:150px;padding:1.25rem .7rem}.need-grid svg{font-size:1.7rem}.need-grid strong{font-size:.9rem}.need-grid span{font-size:.78rem}.products{padding-block:4.25rem}.product-grid article>div{height:180px}.feature{padding-block:4.25rem}.feature-image{height:350px}.process{padding-block:3.75rem}.process li{min-height:0}.brief,.faq{padding-block:4rem}.final-cta{padding-block:4.25rem}.footer-grid a,.footer-grid p{font-size:.88rem}}
+@media(max-width:760px){.faq-heading{display:block;padding-bottom:1.25rem}.faq-heading>p{margin-top:.8rem}.faq-columns{grid-template-columns:1fr}.faq-column+.faq-column details:first-child{border-top:0}}
 @media(max-width:390px){.hero-copy h1{font-size:2.55rem}.product-grid article>div{height:160px}.brief-grid>div article{grid-template-columns:52px minmax(0,1fr)}.brief-grid>div article>div{min-width:0}}
+
+/* Approved identity and persistent contact action */
+.brand-mark{display:block;line-height:0}
+.brand-logo{width:138px;height:auto}
+.site-footer .brand-logo{width:184px}
+.floating-whatsapp{position:fixed;right:clamp(1rem,2vw,1.5rem);bottom:max(1rem,env(safe-area-inset-bottom));z-index:70;min-height:56px;display:inline-flex;align-items:center;gap:.65rem;padding:.65rem .8rem .65rem 1rem;border-radius:999px;background:#25d366;color:#062b14;box-shadow:0 12px 30px rgba(6,43,20,.24);font-size:.88rem;font-weight:700;transition:transform .2s ease,box-shadow .2s ease}
+.floating-whatsapp svg{width:32px;height:32px;flex:none}
+.floating-whatsapp:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(6,43,20,.3)}
+.floating-whatsapp:focus-visible{outline:3px solid var(--gold-light);outline-offset:4px}
+@media(max-width:760px){.brand-logo{width:112px}.mobile-menu .brand-logo{width:132px}.floating-whatsapp{width:54px;min-height:54px;padding:0;justify-content:center}.floating-whatsapp span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.floating-whatsapp svg{width:30px;height:30px}}

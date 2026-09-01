@@ -1,11 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 
-export function BrandMark() {
+export function BrandMark({ variant = "primary" }: { variant?: "primary" | "reversed" }) {
   return (
     <Link className="brand-mark" href="/" aria-label="Sankalp Branding Solutions home">
-      <span className="brand-symbol" aria-hidden="true"><span>S</span></span>
-      <span className="brand-copy"><strong>Sankalp</strong><small>Branding Solutions</small></span>
+      <Image
+        className="brand-logo"
+        src={variant === "reversed" ? "/brand/sankalp-logo-reversed.svg" : "/brand/sankalp-logo-primary.svg"}
+        alt="Sankalp Branding Solutions"
+        width={210}
+        height={100}
+        priority={variant === "primary"}
+      />
     </Link>
   );
 }
-
