@@ -9,7 +9,12 @@ export type BusinessConfig = {
   state: string;
   postalCode: string | null;
   country: string;
-  businessHours: string | null;
+  businessHours: {
+    days: string[];
+    opens: string;
+    closes: string;
+    label: string;
+  } | null;
   googleMapsUrl: string | null;
   googleBusinessProfileUrl: string | null;
   instagram: string | null;
@@ -23,22 +28,26 @@ export type BusinessConfig = {
 export const business: BusinessConfig = {
   brandName: "Sankalp Branding Solutions",
   legalName: null,
-  phone: null,
-  whatsapp: null,
-  email: null,
-  address: null,
+  phone: "+91 89489 43919",
+  whatsapp: "+91 89489 43919",
+  email: "info@sankalpbranding.com",
+  address: "296/23, 11th Cross, Siddaiah Rd, Wilson Garden, Bengaluru, Karnataka 560027, India",
   city: "Bengaluru",
   state: "Karnataka",
-  postalCode: null,
+  postalCode: "560027",
   country: "India",
-  businessHours: null,
-  googleMapsUrl: null,
+  businessHours: {
+    days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "09:00",
+    closes: "18:00",
+    label: "Monday–Saturday · 9:00 AM–6:00 PM",
+  },
+  googleMapsUrl: "https://share.google/aDKOFBFrFyHJ0cBVK",
   googleBusinessProfileUrl: null,
-  instagram: null,
+  instagram: "https://www.instagram.com/sankalpbrandingsolutions/",
   facebook: null,
   linkedin: null,
-  canonicalUrl: null,
+  canonicalUrl: "https://sankalpbranding.com",
   deliveryCoverage: null,
   companyRegistrationData: null,
 };
-

@@ -27,7 +27,7 @@ Instrument Sans is the sole interface family. Headlines are compact, confident, 
 
 - Buttons use 6px corners, a minimum 50px height, and black, white-outline, or selective gold treatments.
 - Cards use 5–6px corners and rely on image, tonal contrast, and fine borders instead of shadows.
-- Development imagery carries a visible provenance label and must be replaced together with that label when verified work is supplied.
+- Generated imagery is recorded as temporary in internal documentation and data only. Public-facing provenance labels are not rendered.
 - The header contains no utility strip until contact and operating information are verified.
 
 ## Responsive rules

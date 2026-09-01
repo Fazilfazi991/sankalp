@@ -32,7 +32,7 @@ Visitors may need event T-shirts, employee onboarding gifts, conference merchand
 - Primary printing hub URL: `/printing-services/`.
 - Approved P0 architecture is recorded in `docs/sitemap-plan.md`; Gate 2 fully implements only the homepage and global foundation.
 - Product architecture must permit a curated quote-led catalogue and later ecommerce without inventing product records or V1 checkout assumptions.
-- Business contact data, address, domain, service coverage, operating hours, prices, MOQ, lead times, production capabilities and individual products are undecided/unverified.
+- Brand name, address, phone/WhatsApp, email, canonical domain, Monday–Saturday business hours, Google Maps link and Instagram URL are verified. Service coverage, prices, MOQ, lead times, production capabilities and individual products remain undecided/unverified.
 - Central configuration and structured content must hide unavailable values gracefully.
 - No deployment, remote repository or push is authorised in Gate 2.
 
@@ -42,7 +42,7 @@ Public brand name: Sankalp Branding Solutions. Approved permanent logo, colours,
 
 ## Evidence on Hand
 
-The repository contains Gate 0/1 strategy, competitor research, keyword map, sitemap and client-data register. There are no verified Sankalp contact details, products, portfolio images, client logos, testimonials, ratings, statistics, prices, operational claims or brand assets. Future work must not fabricate them.
+The repository contains Gate 0/1 strategy, competitor research, keyword map, sitemap and client-data register. Verified public business data is centralized in `src/config/business.ts`. There are no verified products, portfolio images, client logos, testimonials, ratings, statistics, prices, production claims or approved brand assets. Future work must not fabricate them.
 
 ## Product Principles
 

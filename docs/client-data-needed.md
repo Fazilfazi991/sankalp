@@ -1,22 +1,28 @@
 # Sankalp Branding Solutions — Client Data Needed
 
-No business data or assets were present in the supplied project directory as of 1 September 2026. Everything below must be supplied or verified by an authorised Sankalp representative.
+The verified public business data below was supplied by the supervisor on 1 September 2026. Everything remaining must be supplied or verified by an authorised Sankalp representative.
 
-Gate 2 note: unavailable contact details are hidden, indexing is disabled until a canonical domain exists, and the quote form does not transmit or store data until an approved lead destination and privacy notice are configured.
+## VERIFIED
+
+- Brand: Sankalp Branding Solutions.
+- Canonical domain: https://sankalpbranding.com
+- Address: 296/23, 11th Cross, Siddaiah Rd, Wilson Garden, Bengaluru, Karnataka 560027, India.
+- Phone and WhatsApp: +91 89489 43919.
+- Email: info@sankalpbranding.com.
+- Business hours: Monday–Saturday, 9:00 AM–6:00 PM. Sunday remains unspecified.
+- Google Maps: https://share.google/aDKOFBFrFyHJ0cBVK
+- Instagram: https://www.instagram.com/sankalpbrandingsolutions/
+
+Gate 2.2 note: canonical metadata, sitemap, robots architecture and verified contact data are enabled. The quote form does not transmit or store data until an approved lead destination and privacy notice are configured.
 
 ## BLOCKS LAUNCH
 
 - Approved legal/business name and public brand styling.
-- Primary phone number and whether it also accepts WhatsApp.
-- WhatsApp-enabled number and consent to use click-to-chat.
-- Primary public email and exact destination/integration for quote submissions.
-- Full public address: building/street, locality, city, state and PIN.
 - Approved logo files, preferably SVG plus light/dark variants, and basic brand colours/fonts if defined.
 - LOGO APPROVAL: confirm or replace the temporary geometric S development mark before publication.
 - Confirmed list of launch services/products mapped to the four proposed pillars.
 - Confirmation that the business serves Bengaluru and the actual delivery/service geography.
 - Privacy/contact-form consent requirements and person responsible for responding to leads.
-- Preferred public domain/canonical hostname.
 - Approved lead delivery/storage mechanism, retention rules and privacy-notice text.
 
 ## REQUIRED BEFORE PUBLISHING SPECIFIC CLAIMS
@@ -32,7 +38,7 @@ Gate 2 note: unavailable contact details are hidden, indexing is disabled until 
 - GST registration/invoicing, PO/credit terms and any legal entity identifiers approved for publication.
 - Pricing rules: taxes, artwork/setup, branding, packaging, samples, delivery and volume bands.
 - Product availability, material/fabric specifications, size/colour options and warranty/return rules.
-- Service hours and enquiry response expectations.
+- Enquiry response expectations.
 - Permission and evidence for certifications, ratings, awards, client counts or sustainability claims.
 
 ## CONTENT / QUALITY IMPROVEMENT
@@ -54,8 +60,8 @@ Gate 2 note: unavailable contact details are hidden, indexing is disabled until 
 - CMS/product-database requirements and responsible editor.
 - Google Analytics, Search Console, Google Tag Manager and consent-platform IDs/access.
 - Meta Pixel, LinkedIn Insight Tag or call/WhatsApp tracking requirements.
-- Google Business Profile and Maps place link/access.
-- Instagram, Facebook and LinkedIn profile links/access.
+- Google Business Profile access.
+- Facebook and LinkedIn profile links/access.
 - CRM, email automation or lead-routing integration.
 - Ecommerce, payment, inventory, account pricing or approval-workflow requirements.
 - Build-a-kit functionality and recipient-address collection requirements.

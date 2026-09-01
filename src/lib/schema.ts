@@ -12,6 +12,8 @@ export function organizationSchema(): JsonLd | null {
     "@type": "Organization",
     name: business.brandName,
     url,
+    telephone: business.phone ?? undefined,
+    email: business.email ?? undefined,
     ...(sameAs.length ? { sameAs } : {}),
   };
 }
@@ -26,6 +28,16 @@ export function localBusinessSchema(): JsonLd | null {
     url,
     telephone: business.phone ?? undefined,
     email: business.email ?? undefined,
+    ...(business.googleMapsUrl ? { hasMap: business.googleMapsUrl } : {}),
+    ...(business.instagram ? { sameAs: [business.instagram] } : {}),
+    ...(business.businessHours ? {
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: business.businessHours.days,
+        opens: business.businessHours.opens,
+        closes: business.businessHours.closes,
+      },
+    } : {}),
     address: {
       "@type": "PostalAddress",
       streetAddress: business.address,
@@ -68,4 +80,3 @@ export const articleSchema = (input: { headline: string; path: string; datePubli
   const url = absoluteUrl(input.path);
   return url ? { "@context": "https://schema.org", "@type": "Article", ...input, url } : null;
 };
-
