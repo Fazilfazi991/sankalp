@@ -21,7 +21,7 @@ const faqs = [
   { question: "What details should I share for a T-shirt quotation?", answer: "Share the garment direction, approximate quantity, colour, size mix, intended use, branding positions, required date and available artwork." },
   { question: "Can an order include different sizes?", answer: "A size mix can be included in the requirement. Share the working breakdown when it is known so it can be discussed as part of the quotation." },
   { question: "Do I need to know which printing method to use?", answer: "No. Start with the garment, quantity, artwork, intended use and required date. A suitable branding method can be discussed from there." },
-  { question: "What artwork should I send?", answer: "Share the best logo or artwork file available and note the intended placement. Final artwork requirements can be clarified during the quotation process." },
+  { question: "What artwork should I send?", answer: "Share the clearest logo or artwork file available and note the intended placement. Final artwork requirements can be clarified during the quotation process." },
   { question: "Can the logo appear in more than one position?", answer: "You can include front, back, sleeve or multiple positions in the brief. Each placement can affect the quotation and should be described clearly." },
   { question: "What affects the quotation?", answer: "Garment choice, quantity, colours, branding area, number of positions, personalisation, artwork complexity and deadline can all affect a quotation." },
 ];
