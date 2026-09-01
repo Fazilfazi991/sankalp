@@ -31,3 +31,7 @@ export function buildWhatsAppUrl(config: BusinessConfig, context: WhatsAppContex
   return `https://wa.me/${number}?text=${encodeURIComponent(buildWhatsAppMessage(context))}`;
 }
 
+export function buildCustomWhatsAppUrl(config: BusinessConfig, message: string): string | null {
+  if (!config.whatsapp) return null;
+  return `https://wa.me/${config.whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent(message)}`;
+}
