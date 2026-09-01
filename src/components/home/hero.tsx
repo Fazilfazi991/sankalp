@@ -17,7 +17,7 @@ export function Hero() {
           <p className="hero__helper">Start with your requirement, approximate quantity and date. You do not need to know the right customisation method.</p>
         </div>
         <div className="hero__visual">
-          <Image src="/hero-merchandise-development.png" alt="Unbranded development composition of a gift box, polo shirt, bottle, mug, notebook, tote and event lanyard" fill priority sizes="(max-width: 900px) 100vw, 54vw" />
+          <Image src="/hero-merchandise-development.png" alt="Unbranded development composition of a gift box, polo shirt, bottle, mug, notebook, tote and event lanyard" fill loading="eager" sizes="(max-width: 900px) 100vw, 54vw" />
           <div className="hero__visual-label"><span>Generated, unbranded development image</span><strong>Replace with real Sankalp work</strong></div>
         </div>
       </div>
