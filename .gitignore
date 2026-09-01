@@ -43,3 +43,8 @@ next-env.d.ts
 # local design review captures
 /.impeccable/review/
 /.impeccable/mocks/
+
+# Local source/reference assets retained outside production bundles
+/Sankalp_Branding_Approved_Logo_Kit.zip
+/Sankalp_Branding_Approved_Logo_Kit/
+/ChatGPT Image Sep 1, 2026, 11_32_44 PM.png
