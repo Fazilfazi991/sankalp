@@ -9,11 +9,11 @@ export function SiteHeader() {
       <div className="container site-header__inner">
         <BrandMark />
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <Link href="/#corporate-gifting">Corporate Gifting</Link>
-          <Link href="/#custom-apparel">Custom Apparel</Link>
+          <Link href="/corporate-gifting/">Corporate Gifting</Link>
+          <Link href="/custom-apparel/">Custom Apparel</Link>
+          <Link href="/custom-t-shirt-printing/">T-Shirt Printing</Link>
           <Link href="/#pillars">Promotional Merchandise</Link>
           <Link href="/#methods">Printing &amp; Branding</Link>
-          <Link href="/#products">Products</Link>
           <Link href="/#why-sankalp">About</Link>
           <Link href="/request-a-quote/">Contact</Link>
         </nav>

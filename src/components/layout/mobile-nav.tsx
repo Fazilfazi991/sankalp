@@ -7,8 +7,10 @@ import { BrandMark } from "@/components/ui/brand-mark";
 
 const links = [
   ["Products", "/#products"],
-  ["Corporate gifting", "/#corporate-gifting"],
-  ["Custom apparel", "/#custom-apparel"],
+  ["Corporate gifting", "/corporate-gifting/"],
+  ["Employee welcome kits", "/corporate-gifting/employee-welcome-kits/"],
+  ["Custom apparel", "/custom-apparel/"],
+  ["T-shirt printing", "/custom-t-shirt-printing/"],
   ["Promotional merchandise", "/#pillars"],
   ["Printing & branding", "/#pillars"],
   ["About", "/#why-sankalp"],
