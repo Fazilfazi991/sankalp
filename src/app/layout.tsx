@@ -1,0 +1,17 @@
+import type { Metadata } from "next";
+import { Manrope } from "next/font/google";
+import "./globals.css";
+import { SiteHeader } from "@/components/layout/site-header";
+import { SiteFooter } from "@/components/layout/site-footer";
+import { business } from "@/config/business";
+import { siteDescription } from "@/lib/seo";
+import { organizationSchema, websiteSchema } from "@/lib/schema";
+
+const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"], display: "swap" });
+export const metadata: Metadata = { title: { default: "Corporate Gifts & Branded Merchandise Bangalore | Sankalp", template: "%s | Sankalp Branding Solutions" }, description: siteDescription, applicationName: business.brandName, metadataBase: business.canonicalUrl ? new URL(business.canonicalUrl) : undefined };
+
+export default function RootLayout({ children }: LayoutProps<"/">) {
+  const schemas = [organizationSchema(), websiteSchema()].filter(Boolean);
+  return <html lang="en" className={manrope.variable}><body><a className="skip-link" href="#main-content">Skip to main content</a><SiteHeader /><main id="main-content">{children}</main><SiteFooter />{schemas.map((schema, index) => <script key={index} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />)}</body></html>;
+}
+
