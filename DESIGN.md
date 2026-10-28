@@ -31,6 +31,7 @@ Instrument Sans is the sole interface family. Headlines are compact, confident, 
 - Commercial enquiry actions are contextual rather than generic: the page or builder pre-fills WhatsApp with the requirement type and the information already supplied, while the paired quote action preserves the same service context.
 - Generated imagery is recorded as temporary in internal documentation and data only. Public-facing provenance labels are not rendered.
 - Use `/brand/sankalp-logo.png`, with a transparent background, on both light and dark surfaces. Preserve the supplied vertical proportions; constrain its height in navigation and show it larger in the footer.
+- Browser and Apple touch icons use the gold gift symbol alone, with transparent backgrounds and padding for small sizes.
 - The header contains no utility strip until contact and operating information are verified.
 
 Related commercial pages share tokens and interaction patterns, but not a repeated landing-page template. Vary the editorial composition to suit the requirement: split image-and-copy heroes, image-led overlays, numbered catalogue rows, dark procurement-guidance bands, or builder-led flows. Product-led photography remains the visual anchor.
