@@ -4,7 +4,7 @@
 
 The homepage uses a premium B2B product-catalogue direction: dominant white and soft ivory surfaces, near-black editorial contrast, and restrained gold accents. Photography carries the emotional weight. Geometry is sharp, shadows are scarce, and section compositions deliberately vary.
 
-The approved Sankalp wordmark integrates a bow and gift treatment into the leading S. Product imagery remains temporary development photography pending real Sankalp photography.
+The supplied Sankalp logo uses a textured gold gift-box symbol above the Sankalp wordmark and Branding Solutions tagline. Product imagery remains temporary development photography pending real Sankalp photography.
 
 ## Tokens
 
@@ -30,7 +30,7 @@ Instrument Sans is the sole interface family. Headlines are compact, confident, 
 - Commercial requirement builders use a restrained ivory work surface with a white, square-edged form panel. Choices read as compact bordered tiles, switching to near black with a small gold confirmation mark when selected; the resulting plain-language brief is visible before the visitor sends it.
 - Commercial enquiry actions are contextual rather than generic: the page or builder pre-fills WhatsApp with the requirement type and the information already supplied, while the paired quote action preserves the same service context.
 - Generated imagery is recorded as temporary in internal documentation and data only. Public-facing provenance labels are not rendered.
-- Use the primary black-and-gold SVG on light surfaces, the reversed white-and-gold SVG on dark surfaces, and the compact bow/S mark for icons and favicons. Preserve the supplied proportions.
+- Use `/brand/sankalp-logo.png`, with a transparent background, on both light and dark surfaces. Preserve the supplied vertical proportions; constrain its height in navigation and show it larger in the footer.
 - The header contains no utility strip until contact and operating information are verified.
 
 Related commercial pages share tokens and interaction patterns, but not a repeated landing-page template. Vary the editorial composition to suit the requirement: split image-and-copy heroes, image-led overlays, numbered catalogue rows, dark procurement-guidance bands, or builder-led flows. Product-led photography remains the visual anchor.
